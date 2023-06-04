@@ -29,8 +29,8 @@ Para funcionar el proyecto se divide en <ins>dos programas</ins>, que deben ser 
 ## Capturas de pantalla
 
 <div style="display:flex">
-    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/69e0df9e-3a59-4a18-ae59-8b5720fede3b" alt="Imagen 1" width="434">
-    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/e558d043-f82c-44f0-9856-6ddb165b7dec" alt="Imagen 2" width="434">
+    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/ed877083-fdcf-4541-90e4-8c6137b33b00" alt="Imagen 1" width="434">
+    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/2450a0a2-ec0d-4c61-b4a6-24cb1d2f27cf" alt="Imagen 2" width="434">
 </div>
 
 
