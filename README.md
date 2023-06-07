@@ -23,14 +23,16 @@ Para funcionar el proyecto se divide en <ins>dos programas</ins>, que deben ser 
 
 - <ins>[JarNetCliente](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Donde se puede realizar el envío de archivos JAR, y la ejecución de los mismos cuando se de la orden por parte del usuario. Este **debe ser instalado en el "dispositivo de origen"**.
 
-- <ins>[JarNetServidor](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Administra la recepción de los archivos JAR. Al recibir un archivo, lo guarda en una ubicación en el disco del "dispositivo de destino". Cuando lo ejecutes, se mantendrá activo hasta que el dispositivo sea apagado o si se finaliza el proceso del programa manualmente. Este **debe ser instalado en el "dispositivo de destino"**.
+- <ins>[JarNetServidor](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Administra la recepción de los archivos JAR. Al recibir un archivo, lo guarda en una ubicación en el disco del "dispositivo de destino". Cuando se ejecuta en un dispositivo, te ofrece la opción de iniciar automáticamente el servidor al encender el dispositivo. Una vez activo, el servidor espera las instrucciones del cliente.Este **debe ser instalado en el "dispositivo de destino"**.
+
+Se requieren estos dos programas, ya que su funcionalidad se complementa para establecer una comunicación o enlace efectivo entre ambos dispositivos. Esta comunicación permitirá el envío de archivos e instrucciones.
 
 
 ## Capturas de pantalla
 
 <div style="display:flex">
-    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/ed877083-fdcf-4541-90e4-8c6137b33b00" alt="Imagen 1" width="434">
-    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/2450a0a2-ec0d-4c61-b4a6-24cb1d2f27cf" alt="Imagen 2" width="434">
+    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/b477fec0-97ae-449b-bfff-12aece84a033" alt="Imagen 1" width="434">
+    <img src="https://github.com/IgnacioAusili/JarNet/assets/50252791/ee142727-423c-4b19-96a9-dc2481c0aaf5" alt="Imagen 2" width="434">
 </div>
 
 
@@ -51,7 +53,7 @@ Si estas seguro de cumplir estos aspectos y aún experimentas problemas, quizas 
 Para utilizar correctamente el proyecto, sigue estos pasos:
 1. (En caso de no tener Java) Descarga e instala Java, puedes hacerlo desde [aquí](https://www.java.com/en/download/).
 2. Descarga la version mas reciende del programa "JarNetServidor", en la maquina que actuara como destino de los archivos JAR, desde este [link](https://github.com/IgnacioAusili/JarNet/releases).
-3. Ejecuta el programa "JarNetServidor", una vez ejecutado, se mantendra activo, a la espera de las ordenes del cliente.
+3. Ejecuta el programa "JarNetServidor", una vez que se ejecute,solicitará al usuario una única vez si desea configurar el servidor para que se inicie automáticamente cada vez que se encienda el dispositivo. Una vez configurado, el servidor se mantendrá activo y esperará las órdenes del cliente.
 4. Descarga la version mas reciente del programa "JarNetCliente", en tu maquina local, desde este [link](https://github.com/IgnacioAusili/JarNet/releases).
 5. Ejecuta el programa "JarNetCliente" y verifica que en donde aparece "Conexion:" muestre que esta conectado con el servidor, marcado con un punto verde, de no ser así, revisa este [apartado](https://github.com/IgnacioAusili/JarNet/blob/main/README.md#posibles-errores).
 
@@ -87,6 +89,7 @@ Es importante tener en cuenta que estos son solo algunos de los errores posibles
 - Está desarrollado en Java nativo, sin librerías externas.
 - Utiliza el protocolo UDP para establecer la conexión entre el servidor y el cliente.
 - El codigo fuente de los dos programas, cuenta con una documentación básica en español, proporciona instrucciones sencillas sobre su uso.
+- El programa te permite que se ejecute el servidor cada vez que se enciende el dispositivo, esto lo hace generando en el caso de tener windows, una tarea de evento, en cada dispositivo la forma de establecer esta funcion es distinta por lo que pdoria no funcionar en tu sistema operativo.
 - En teoria deberia funcionar para todos los sistemas operativos, siempre y cuando, soporten y tengan instalado Java.
 - En teoría, es posible enviar archivos JAR de cualquier tamaño. Sin embargo, en caso de que los archivos JAR sean muy pesados, pueden surgir problemas durante el proceso de transferencia.
 
