@@ -42,7 +42,7 @@ Si bien no existen requisitos específicos en términos de recursos del sistema,
 
 - Tanto el servidor como el cliente deben estar conectados a la misma red LAN (No es necesario que esa red tenga internet).
 - Los puertos de la red deben estar abiertos. En la mayoría de los casos, los puertos ya estan abiertos por defecto y no requieren intervención adicional. Sin embargo, en caso de que no lo estén, revisa este [apartado](https://www.redeszone.net/tutoriales/configuracion-puertos/abrir-puerto-tcp-udp-router/).
-- El programa "Servidor" debe estar activo, cuando se quiera enviar una orden al mismo desde el programa "Cliente".
+- El programa "JarNetServidor" debe estar activo, cuando se quiera enviar una orden al mismo desde el programa "JarNetCliente".
 - Tanto el "dispositivo de destino" y el "dispositivo de origen" deben tener instalado Java, antes de poder ejecutar los programas.
 
 Si estas seguro de cumplir estos aspectos y aún experimentas problemas, quizas pueda ayudarte revisar este [apartado](https://github.com/IgnacioAusili/JarNet#posibles-errores).
