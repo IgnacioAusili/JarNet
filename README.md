@@ -19,7 +19,7 @@ Son archivos que tienen la extension o formato ".jar", en el que se pueden encon
 
 ### ¿Como funciona?
 
-Para funcionar el proyecto se divide en <ins>dos programas</ins>, que deben ser instalados respectivamente en los dispositivos antes mencionados. esos programas son:
+Para funcionar el proyecto se divide en <ins>dos programas</ins>, que deben ser instalados respectivamente en los dispositivos antes mencionados.
 
 - <ins>[JarNetCliente](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Donde se puede realizar el envío de archivos JAR, y la ejecución de los mismos cuando se de la orden por parte del usuario. Este **debe ser instalado en el "dispositivo de origen"**.
 
