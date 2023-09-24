@@ -24,7 +24,7 @@ Para funcionar el proyecto se divide en <ins>dos programas</ins>, que deben ser 
 - <ins>[JarNetCliente](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Donde se puede realizar el envío de archivos JAR, y la ejecución de los mismos cuando se de la orden por parte del usuario.
 Este **debe ser instalado en el "dispositivo de origen"**.
 
-- <ins>[JarNetServidor](https://github.com/IgnacioAusili/JarNetCliente)</ins>: Administra la recepción de los archivos JAR. Al recibir un archivo, lo guarda en una ubicación en el disco del "dispositivo de destino". Cuando se ejecuta en un dispositivo, te ofrece la opción de iniciar automáticamente el servidor al encender el dispositivo. Una vez activo, el servidor espera las instrucciones del cliente.
+- <ins>[JarNetServidor](https://github.com/IgnacioAusili/JarNetServidor)</ins>: Administra la recepción de los archivos JAR. Al recibir un archivo, lo guarda en una ubicación en el disco del "dispositivo de destino". Cuando se ejecuta en un dispositivo, te ofrece la opción de iniciar automáticamente el servidor al encender el dispositivo. Una vez activo, el servidor espera las instrucciones del cliente.
 Este **debe ser instalado en el "dispositivo de destino"**.
 
 Se requieren estos dos programas, ya que su funcionalidad se complementa para establecer una comunicación o enlace efectivo entre ambos dispositivos. Esta comunicación permitirá el envío de archivos e instrucciones.
